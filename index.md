@@ -5,7 +5,7 @@ title: TravyPlay
 
 # TravyPlay
 
-<div class="section-center">
+<div style="text-align:center; margin:0 auto; max-width:900px;">
 
 ## 📖 Descrizione
 
@@ -16,6 +16,8 @@ title: TravyPlay
 - Liste e canali **IPTV** 📺  
 
 Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per sostituire più app con una sola soluzione.
+
+</div>
 
 <table>
   <tr>
@@ -71,7 +73,7 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
   </tr>
 </table>
 
-<div class="functions-center">
+<div style="text-align:center; margin:20px auto; max-width:900px;">
 
 ## 🌟 Highlights
 ✅ Unifica Musica + Video + IPTV in un’unica app<br>

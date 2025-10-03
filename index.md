@@ -92,6 +92,8 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 <li>Rilascio su **Android / IOS**</li>
 </ul>
 
+</div>
+
 
 
 <p align="center" style="font-size:14px; color:#56ff8a;">

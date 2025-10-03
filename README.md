@@ -2,23 +2,22 @@
 
 > Il tuo media center personale, potente e unificato.
 
-
+<div style="background-color:#000; padding:30px; border-radius:15px; color:#fff; font-family:Arial, sans-serif;">
 
 <div align="center">
     <table>
         <tr>
-            <td><img src="screenshots/Screenshot_TravyPlay4.png" height="400"/></td>
-            <td><img src="screenshots/Screenshot_TravyPlay6.png" height="400"/></td>
+            <td><img src="assets/screenshots/Screenshot_TravyPlay4.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="assets/screenshots/Screenshot_TravyPlay6.png" height="400" style="max-width:100%; height:auto;"/></td>
             <td>
-                <img src="screenshots/Screenshot_TravyPlay7.png" height="200"/><br>
-                <img src="assets/screenshots/Screenshot_TravyPlay8.png" height="200"/>
+                <img src="assets/screenshots/Screenshot_TravyPlay7.png" height="200" style="max-width:100%; height:auto;"/><br>
+                <img src="assets/screenshots/Screenshot_TravyPlay8.png" height="200" style="max-width:100%; height:auto;"/>
             </td>
-            <td><img src="screenshots/Screenshot_TravyPlay5.png" height="400"/></td>
-            <td><img src="screenshots/Screenshot_TravyPlay9.png" height="400"/></td>
+            <td><img src="assets/screenshots/Screenshot_TravyPlay5.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="assets/screenshots/Screenshot_TravyPlay9.png" height="400" style="max-width:100%; height:auto;"/></td>
         </tr>
     </table>
 </div>
-
 
 ---
 
@@ -29,12 +28,14 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
 
 ---
 
+<div style="display:flex; flex-wrap:wrap; gap:40px;">
 
+<div style="flex:1; min-width:300px;">
 ## ✨ Funzionalità Principali
 
 <table>
     <tr>
-        <td><img src="screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
+        <td><img src="assets/screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
         <td>
             <strong>🎵 Gestione Musica</strong><br>
             Scansiona automaticamente i file musicali presenti sul dispositivo.<br>
@@ -43,7 +44,7 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
         </td>
     </tr>
     <tr>
-        <td><img src="screenshots/Screenshot_TravyPlay3.png" width="120"/></td>
+        <td><img src="assets/screenshots/Screenshot_TravyPlay3.png" width="120"/></td>
         <td>
             <strong>🎬 Libreria Video</strong><br>
             Raggruppa film e serie TV in raccolte intelligenti.<br>
@@ -51,7 +52,7 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
         </td>
     </tr>
     <tr>
-        <td><img src="screenshots/Screenshot_TravyPlay4.png" width="120"/></td>
+        <td><img src="assets/screenshots/Screenshot_TravyPlay4.png" width="120"/></td>
         <td>
             <strong>📺 Supporto IPTV</strong><br>
             Aggiungi sorgenti M3U personalizzate tramite link o file locali.<br>
@@ -60,23 +61,28 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
         </td>
     </tr>
 </table>
+</div>
 
----
+<div style="flex:1; min-width:250px; border-left:2px solid #555; padding-left:20px;">
+## 🚀 Funzioni Secondarie
 
-- ⭐ **Preferiti Unificati**
-        - Contrassegna come preferiti film, serie TV o canali IPTV per accedervi rapidamente.
+- ⭐ **Preferiti Unificati**  
+  Contrassegna come preferiti film, serie TV o canali IPTV per accedervi rapidamente.
 
-- 🎶 **Playlist Musicali**
-        - Crea, modifica e gestisci playlist musicali personalizzate per organizzare i tuoi brani preferiti.
+- 🎶 **Playlist Musicali**  
+  Crea, modifica e gestisci playlist musicali personalizzate per organizzare i tuoi brani preferiti.
 
-- 🔍 **Ricerca Potente**
-        - Trova ciò che cerchi in un attimo grazie a una ricerca veloce che filtra i risultati in tempo reale.
+- 🔍 **Ricerca Potente**  
+  Trova ciò che cerchi in un attimo grazie a una ricerca veloce che filtra i risultati in tempo reale.
 
-- 🔄 **Sincronizzazione Automatica**
-        - Mantieni la tua libreria sempre aggiornata. L'app rileva automaticamente i nuovi file multimediali all'avvio.
+- 🔄 **Sincronizzazione Automatica**  
+  Mantieni la tua libreria sempre aggiornata. L'app rileva automaticamente i nuovi file multimediali all'avvio.
 
-- 📱 **Cross-Platform**
-        - Scritto in Flutter per un'esperienza nativa e performante sia su Android che su iOS. (VERSIONE IOS NON ANCORA DISPONIBILE)
+- 📱 **Cross-Platform**  
+  Scritto in Flutter per un'esperienza nativa e performante sia su Android che su iOS. (VERSIONE IOS NON ANCORA DISPONIBILE)
+</div>
+
+</div>
 
 ---
 
@@ -91,9 +97,7 @@ Il tuo feedback è fondamentale in questa fase!
 
 ## 🚀 Installazione
 
-Per ora, è possibile testare l'app da **sorgente:**
-
- Clona il repository e compila con Flutter.
+Per ora, è possibile testare l'app da **sorgente:**  
 
 ```bash
 # Clona il repository
@@ -107,5 +111,3 @@ flutter pub get
 
 # Avvia l'app
 flutter run
-
-

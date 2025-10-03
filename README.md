@@ -3,7 +3,7 @@ layout: default
 title: TravyPlay
 ---
 
-<!-- Imposta il body a sfondo nero e testo bianco -->
+<!-- Stile globale per sfondo nero e testo bianco -->
 <style>
   body {
     background-color: #000 !important;
@@ -15,6 +15,28 @@ title: TravyPlay
 
   a { color: #1e90ff; }
   table, td { background-color: #000; color: #fff; }
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+
+  .two-columns {
+    display: table;
+    width: 100%;
+  }
+
+  .column {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 20px;
+  }
+
+  .column-left { width: 60%; }
+  .column-right { width: 40%; border-left: 2px solid #555; }
 </style>
 
 # 🎶 TravyPlay
@@ -23,7 +45,7 @@ title: TravyPlay
 
 ---
 
-<div align="center" style="max-width:1100px; margin:auto; padding:40px; color:#fff;">
+<div class="container" align="center">
 
 <img src="icon_travyplay.png" alt="TravyPlay Logo" width="120" style="border-radius:20px; margin-bottom:15px;"/>
 
@@ -62,12 +84,12 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 
 ---
 
-<div style="display:flex; flex-wrap:wrap; gap:40px; text-align:left;">
+<div class="two-columns">
 
-<div style="flex:1; min-width:300px;">
+<div class="column column-left">
 
 ## ✨ Funzionalità Principali
-<table style="background:#000; color:#fff;">
+<table>
   <tr>
     <td><img src="screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
     <td style="color:#fff;">
@@ -97,11 +119,10 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 </table>
 </div>
 
-<div style="flex:1; min-width:250px; border-left:2px solid #555; padding-left:20px;">
+<div class="column column-right">
 
 ## 🚀 Funzioni Secondarie
 <div style="color:#fff;">
-
 - ⭐ **Show Preferiti** – Accesso rapido a film, serie o canali IPTV.  
 - 🎶 **Playlist Musicali** – Gestione lista brani personalizzata.  
 - 🔍 **Ricerca Potente** – Filtri veloci e risultati in tempo reale.  
@@ -110,13 +131,14 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 </div>
 
 <p align="center">
-<table style="background:#000; color:#fff;">
+<table>
   <tr>
     <td><img src="screenshots/Screenshot_TravyPlay4.png" width="200"/></td>
     <td><img src="screenshots/Screenshot_TravyPlay9.png" width="200"/></td>
   </tr>
 </table>
 </p>
+
 </div>
 </div>
 

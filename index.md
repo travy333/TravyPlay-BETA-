@@ -5,6 +5,8 @@ title: TravyPlay
 
 # TravyPlay
 
+<div class="section-center">
+
 ## 📖 Descrizione
 
 **TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:  

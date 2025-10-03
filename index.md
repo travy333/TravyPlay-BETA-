@@ -9,7 +9,7 @@ title: TravyPlay
 
 <h2><strong>📖 Descrizione</strong></h2>
 
-<p><strong>TravyPlay</strong> è un media player open-source costruito in **Flutter**, progettato per unificare:</p>  
+<p><strong>TravyPlay</strong> è un media player open-source costruito in <strong>Flutter</strong>, progettato per unificare:</p>  
 
 <ul>
 <li><strong>Libreria musicale locale</strong> 🎵</li>
@@ -83,11 +83,11 @@ title: TravyPlay
 ✅ Gratuito & Open Source<br>
 ✅ Ottimizzato per mobile</p>
 
-<p>## ⚠️ Stato del Progetto</p>
+<h2>⚠️ Stato del Progetto</h2>
 <p><strong>Versione attuale:</strong> `0.9.5 Beta`<br>
 👉 L’app è stabile ma ancora in sviluppo attivo. Alcune funzioni potrebbero cambiare o migliorare.</p>
 
-<p>## 📅 Roadmap</p>
+<h2>📅 Roadmap</h2>
 <ul class="roadmap">
 <li>Integrazione con <strong>Open Library (Internet Archive) API's</strong> per ricerca, lettura, download di Libri 📚</li>
 <li>Finalizzazione <strong>versione iOS</strong></li>

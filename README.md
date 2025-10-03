@@ -1,4 +1,9 @@
-# 🎶 TravyPlay 
+---
+layout: default
+title: TravyPlay
+---
+
+# 🎶 TravyPlay
 
 > Il tuo media center personale, potente e unificato.
 
@@ -20,16 +25,15 @@
 ---
 
 ### 📸 Anteprima
-<table>
-  <tr>
-    <td><img src="screenshots/Screenshot_TravyPlay6.png" height="400"/></td>
-    <td>
-      <img src="screenshots/Screenshot_TravyPlay7.png" height="200"/><br>
-      <img src="screenshots/Screenshot_TravyPlay8.png" height="200"/>
-    </td>
-    <td><img src="screenshots/Screenshot_TravyPlay5.png" height="400"/></td>
-  </tr>
-</table>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:20px;">
+  <img src="screenshots/Screenshot_TravyPlay6.png" height="400" style="flex:1; max-width:32%; height:auto;"/>
+  <div style="display:flex; flex-direction:column; gap:10px; flex:1; max-width:32%;">
+    <img src="screenshots/Screenshot_TravyPlay7.png" height="195" style="width:100%; object-fit:cover;"/>
+    <img src="screenshots/Screenshot_TravyPlay8.png" height="195" style="width:100%; object-fit:cover;"/>
+  </div>
+  <img src="screenshots/Screenshot_TravyPlay5.png" height="400" style="flex:1; max-width:32%; height:auto;"/>
+</div>
 
 ---
 
@@ -43,40 +47,43 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 
 ---
 
-<div style="display:flex; flex-wrap:wrap; gap:40px; text-align:left;">
+<div style="display:flex; flex-wrap:wrap; gap:40px; text-align:left; margin-top:20px;">
 
 <div style="flex:1; min-width:300px;">
 
 ## ✨ Funzionalità Principali
 
-<table>
-  <tr>
-    <td><img src="screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
-    <td>
+<div style="display:flex; flex-direction:column; gap:15px;">
+  <div style="display:flex; gap:10px; align-items:center;">
+    <img src="screenshots/Screenshot_TravyPlay2.png" width="120"/>
+    <div>
       <strong>🎵 Gestione Musica</strong><br>
       Scansione automatica dei file audio.<br>
       Libreria organizzata per genere, artista e album.<br>
       Creazione e gestione playlist personalizzate.
-    </td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/Screenshot_TravyPlay3.png" width="120"/></td>
-    <td>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:10px; align-items:center;">
+    <img src="screenshots/Screenshot_TravyPlay3.png" width="120"/>
+    <div>
       <strong>🎬 Libreria Video</strong><br>
       Collezioni intelligenti di film e serie.<br>
       Navigazione fluida tra i contenuti video.
-    </td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/Screenshot_TravyPlay4.png" width="120"/></td>
-    <td>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:10px; align-items:center;">
+    <img src="screenshots/Screenshot_TravyPlay4.png" width="120"/>
+    <div>
       <strong>📺 Supporto IPTV</strong><br>
       Aggiunta sorgenti M3U (link o file locali).<br>
       Canali organizzati per nazione o categoria.<br>
       Streaming TV integrato.
-    </td>
-  </tr>
-</table>
+    </div>
+  </div>
+</div>
+
 </div>
 
 <div style="flex:1; min-width:250px; border-left:2px solid #555; padding-left:20px;">
@@ -89,14 +96,11 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 - 🔄 **Sincronizzazione Automatica** – Libreria sempre aggiornata.  
 - 📱 **Cross-Platform** – Android e presto iOS. *(iOS non ancora disponibile)*  
 
+<div style="display:flex; justify-content:center; gap:20px; margin-top:20px;">
+  <img src="screenshots/Screenshot_TravyPlay4.png" width="200"/>
+  <img src="screenshots/Screenshot_TravyPlay9.png" width="200"/>
+</div>
 
-<p align="center">
-<table>
-  <tr><br><br><br><br>
-    <td><img src="screenshots/Screenshot_TravyPlay4.png" width="200" /></td>
-    <td><img src="screenshots/Screenshot_TravyPlay9.png" width="200" /></td>
-  </tr>
-</table>
 </div>
 </div>
 
@@ -110,6 +114,14 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 
 ---
 
+
+- 📖 Ricerca per titolo, autore o categoria  
+- 📘 Visualizzazione anteprime o libri completi  
+- 🔖 Salvataggio dei preferiti  
+- 📗 Download gratuito dei libri open-source
+
+---
+
 ## ⚠️ Stato del Progetto
 **Versione attuale:** `0.9.5 Beta`  
 👉 L’app è stabile ma ancora in sviluppo attivo. Alcune funzioni potrebbero cambiare o migliorare.
@@ -119,16 +131,11 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 ## 📅 Roadmap (Prossimi Step)
 
 - [ ] Integrazione con **Open Library (Internet Archive) API's** per ricerca, lettura, download di Libri 📚  
-- [ ] Finalizzazione **versione iOS**
-- [ ] Rilascio su **Android / IOS**   
+- [ ] Finalizzazione **versione iOS**  
+- [ ] Rilascio su **Android / IOS**  
 
 ---
 
-<br>
-
-<p align="center" style="font-size:14px; color:#aaa;">
+<p align="center" style="font-size:14px; color:#aaa; margin-top:30px;">
   <img src="icon_travyplay.png" alt="TravyPlay Logo Footer" width="40" style="vertical-align:middle;"/>  
-  <br>
 </p>
-
-</div>

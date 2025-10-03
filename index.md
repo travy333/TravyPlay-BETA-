@@ -7,9 +7,9 @@ title: TravyPlay
 
 <div class="section-center">
 
-<p>## 📖 Descrizione</p>
+<h2>📖 Descrizione</p>
 
-<p>**TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:</p>  
+<p><strong>TravyPlay</strong> è un media player open-source costruito in **Flutter**, progettato per unificare:</p>  
 
 <ul>
 <li><strong>Libreria musicale locale</strong> 🎵</li>
@@ -77,8 +77,8 @@ title: TravyPlay
 
 <div class="functions-center">
 
-<p>## 🌟 Highlights</p>
-<p>✅ Unifica Musica + Video + IPTV in un’unica app<br>
+<h2>🌟 Highlights</p>
+  <p>✅ Unifica Musica + Video + IPTV in un’unica app<br>
 ✅ Interfaccia moderna e fluida (Flutter)<br>
 ✅ Gratuito & Open Source<br>
 ✅ Ottimizzato per mobile</p>

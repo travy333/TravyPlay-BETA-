@@ -7,14 +7,14 @@
 <div align="center">
     <table>
         <tr>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay4.png" height="400" style="max-width:100%; height:auto;"/></td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay6.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay4.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay6.png" height="400" style="max-width:100%; height:auto;"/></td>
             <td>
-                <img src="assets/screenshots/Screenshot_TravyPlay7.png" height="200" style="max-width:100%; height:auto;"/><br>
-                <img src="assets/screenshots/Screenshot_TravyPlay8.png" height="200" style="max-width:100%; height:auto;"/>
+                <img src="screenshots/Screenshot_TravyPlay7.png" height="200" style="max-width:100%; height:auto;"/><br>
+                <img src="screenshots/Screenshot_TravyPlay8.png" height="200" style="max-width:100%; height:auto;"/>
             </td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay5.png" height="400" style="max-width:100%; height:auto;"/></td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay9.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay5.png" height="400" style="max-width:100%; height:auto;"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay9.png" height="400" style="max-width:100%; height:auto;"/></td>
         </tr>
     </table>
 </div>
@@ -35,7 +35,7 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
 
 <table>
     <tr>
-        <td><img src="assets/screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
+        <td><img src="screenshots/Screenshot_TravyPlay2.png" width="120"/></td>
         <td>
             <strong>🎵 Gestione Musica</strong><br>
             Scansiona automaticamente i file musicali presenti sul dispositivo.<br>
@@ -44,7 +44,7 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
         </td>
     </tr>
     <tr>
-        <td><img src="assets/screenshots/Screenshot_TravyPlay3.png" width="120"/></td>
+        <td><img src="screenshots/Screenshot_TravyPlay3.png" width="120"/></td>
         <td>
             <strong>🎬 Libreria Video</strong><br>
             Raggruppa film e serie TV in raccolte intelligenti.<br>
@@ -52,7 +52,7 @@ L'obiettivo è offrire un'esperienza fluida e centralizzata per godersi tutti i 
         </td>
     </tr>
     <tr>
-        <td><img src="assets/screenshots/Screenshot_TravyPlay4.png" width="120"/></td>
+        <td><img src="screenshots/Screenshot_TravyPlay4.png" width="120"/></td>
         <td>
             <strong>📺 Supporto IPTV</strong><br>
             Aggiungi sorgenti M3U personalizzate tramite link o file locali.<br>
@@ -111,3 +111,4 @@ flutter pub get
 
 # Avvia l'app
 flutter run
+

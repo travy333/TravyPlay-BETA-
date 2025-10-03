@@ -1,4 +1,3 @@
-# .github/workflows/jekyll-gh-pages.yml
 name: Build and Deploy Jekyll Site with Ruby & Bundler
 
 on:
@@ -24,21 +23,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Install Ruby & Bundler
+      # This step sets up Ruby and automatically runs `bundle install`
+      # because `bundler-cache: true` is set.
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2   # Puoi cambiare versione se il tuo Jekyll richiede un'altra
-          bundler-cache: true
+          ruby-version: 3.2
+          bundler-cache: true # This automatically handles dependency installation
 
-      - name: Install dependencies
-        run: |
-          gem install jekyll
-          bundle install
+      # The old "Install dependencies" step has been removed.
 
       - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build -d ./_site
+        run: bundle exec jekyll build -d ./_site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

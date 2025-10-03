@@ -61,6 +61,7 @@ title: TravyPlay
 ---
 
 ### 📸 Anteprima
+
 <table>
   <tr>
     <td><img src="screenshots/Screenshot_TravyPlay6.png" height="400"/></td>
@@ -123,11 +124,13 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 
 ## 🚀 Funzioni Secondarie
 <div style="color:#fff;">
+  
 - ⭐ **Show Preferiti** – Accesso rapido a film, serie o canali IPTV.  
 - 🎶 **Playlist Musicali** – Gestione lista brani personalizzata.  
 - 🔍 **Ricerca Potente** – Filtri veloci e risultati in tempo reale.  
 - 🔄 **Sincronizzazione Automatica** – Libreria sempre aggiornata.  
-- 📱 **Cross-Platform** – Android e presto iOS. *(iOS non ancora disponibile)*  
+- 📱 **Cross-Platform** – Android e presto iOS. *(iOS non ancora disponibile)*
+- 
 </div>
 
 <p align="center">

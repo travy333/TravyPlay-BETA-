@@ -25,7 +25,6 @@ title: TravyPlay
 ---
 
 ### 📸 Anteprima
-
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:20px;">
   <img src="screenshots/Screenshot_TravyPlay6.png" height="400" style="flex:1; max-width:32%; height:auto;"/>
   <div style="display:flex; flex-direction:column; gap:10px; flex:1; max-width:32%;">
@@ -111,14 +110,6 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 ✅ Interfaccia moderna e fluida (Flutter)  
 ✅ Gratuito & Open Source  
 ✅ Ottimizzato per mobile  
-
----
-
-
-- 📖 Ricerca per titolo, autore o categoria  
-- 📘 Visualizzazione anteprime o libri completi  
-- 🔖 Salvataggio dei preferiti  
-- 📗 Download gratuito dei libri open-source
 
 ---
 

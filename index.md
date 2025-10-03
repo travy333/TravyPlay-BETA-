@@ -76,9 +76,6 @@ title: TravyPlay
   }
 </style>
 
-<h1>TravyPlay</h1>
-
-<div style="margin-top:1px;text-align:center;">
 
 ## 📖 Descrizione
 

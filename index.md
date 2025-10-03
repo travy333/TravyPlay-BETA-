@@ -71,6 +71,8 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
   </tr>
 </table>
 
+<div class="functions-center">
+
 ## 🌟 Highlights
 ✅ Unifica Musica + Video + IPTV in un’unica app<br>
 ✅ Interfaccia moderna e fluida (Flutter)<br>
@@ -87,6 +89,8 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 <li>Finalizzazione **versione iOS**</li>
 <li>Rilascio su **Android / IOS**</li>
 </ul>
+
+</div>
 
 <p align="center" style="font-size:14px; color:#56ff8a;">
   <img src="icon_travyplay.png" alt="TravyPlay Logo Footer" width="40"/>  

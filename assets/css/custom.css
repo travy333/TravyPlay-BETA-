@@ -85,3 +85,24 @@ ul li {
        0 0 100px #56ff8a;
     }
 }
+
+/* Centrare il contenuto principale delle sezioni */
+.section-center {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px; /* per non far diventare troppo largo il testo */
+}
+
+/* Centrare il contenuto sotto le funzioni */
+.functions-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Assicura che le tabelle all'interno restino leggibili */
+.table-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

@@ -1,0 +1,87 @@
+/* Sfondo e testo globale */
+body, .site, .site-main, .post, .content {
+    background-color: #000 !important;
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Link */
+a {
+    color: #56ff8a !important;
+}
+
+/* Titolo principale neon animato */
+h1 {
+    font-size: 4em;
+    color: #56ff8a;
+    text-align: center;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    text-shadow:
+       0 0 5px #56ff8a,
+       0 0 10px #56ff8a,
+       0 0 20px #56ff8a,
+       0 0 40px #56ff8a,
+       0 0 80px #56ff8a;
+}
+
+/* Titoli secondari neon */
+h2 {
+    color: #56ff8a;
+}
+
+/* Evidenziazioni neon */
+strong {
+    color: #56ff8a;
+}
+
+/* Tabelle e celle */
+table {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    background-color: #000 !important;
+    color: #fff !important;
+    padding: 6px;
+}
+
+/* Immagini con glow leggero */
+img {
+    border-radius: 12px;
+    box-shadow: 0 2px 12px #0f0;
+}
+
+/* Liste */
+ul li {
+    line-height: 1.7;
+}
+
+/* Roadmap */
+.roadmap li {
+    margin-bottom: 8px;
+}
+
+/* Animazione neon */
+@keyframes neonGlow {
+    from {
+      text-shadow:
+       0 0 5px #56ff8a,
+       0 0 10px #56ff8a,
+       0 0 20px #56ff8a,
+       0 0 40px #56ff8a,
+       0 0 80px #56ff8a;
+    }
+    to {
+      text-shadow:
+       0 0 10px #56ff8a,
+       0 0 20px #56ff8a,
+       0 0 30px #56ff8a,
+       0 0 50px #56ff8a,
+       0 0 100px #56ff8a;
+    }
+}

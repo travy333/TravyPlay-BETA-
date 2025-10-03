@@ -7,14 +7,14 @@
 <div align="center">
     <table>
         <tr>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay4.png" height="400"/></td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay6.png" height="400"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay4.png" height="400"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay6.png" height="400"/></td>
             <td>
-                <img src="assets/screenshots/Screenshot_TravyPlay7.png" height="200"/><br>
+                <img src="screenshots/Screenshot_TravyPlay7.png" height="200"/><br>
                 <img src="assets/screenshots/Screenshot_TravyPlay8.png" height="200"/>
             </td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay5.png" height="400"/></td>
-            <td><img src="assets/screenshots/Screenshot_TravyPlay9.png" height="400"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay5.png" height="400"/></td>
+            <td><img src="screenshots/Screenshot_TravyPlay9.png" height="400"/></td>
         </tr>
     </table>
 </div>
@@ -107,3 +107,4 @@ flutter pub get
 
 # Avvia l'app
 flutter run
+

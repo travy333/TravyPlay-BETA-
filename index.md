@@ -75,6 +75,8 @@ title: TravyPlay
 
 ---
 
+<table>
+  <tr>
 ## 📖 Descrizione
 **TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:  
 - Libreria **musicale locale** 🎵  
@@ -82,7 +84,8 @@ title: TravyPlay
 - Liste e canali **IPTV** 📺  
 
 Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per sostituire più app con una sola soluzione.
-
+  <tr>
+    <table>
 ---
 
 <div class="two-columns">

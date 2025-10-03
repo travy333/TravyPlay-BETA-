@@ -5,17 +5,19 @@ title: TravyPlay
 
 # TravyPlay
 
-<div style="text-align:center; margin:0 auto; max-width:900px;">
+<div class="section-center">
 
-## 📖 Descrizione
+<p>## 📖 Descrizione</p>
 
-**TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:  
+<p>**TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:</p>  
 
-- **Libreria musicale locale** 🎵  
-- **Collezione di film e serie TV** 🎬  
-- **Liste e canali IPTV** 📺  
+<ul>
+<li><strong>Libreria musicale locale</strong> 🎵</li>
+<li><strong>Collezione di film e serie TV</strong> 🎬</li>
+<li><strong>Liste e canali IPTV</strong> 📺</li>
+</ul>
 
-Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per sostituire più app con una sola soluzione.
+<p>Il tutto in <strong>un’unica interfaccia moderna e semplice da usare</strong>, pensata per sostituire più app con una sola soluzione.</p>
 
 </div>
 
@@ -73,23 +75,23 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
   </tr>
 </table>
 
-<div style="text-align:center; margin:20px auto; max-width:900px;">
+<div class="functions-center">
 
-## 🌟 Highlights
-✅ Unifica Musica + Video + IPTV in un’unica app<br>
+<p>## 🌟 Highlights</p>
+<p>✅ Unifica Musica + Video + IPTV in un’unica app<br>
 ✅ Interfaccia moderna e fluida (Flutter)<br>
 ✅ Gratuito & Open Source<br>
-✅ Ottimizzato per mobile
+✅ Ottimizzato per mobile</p>
 
-## ⚠️ Stato del Progetto
-**Versione attuale:** `0.9.5 Beta`<br>
-👉 L’app è stabile ma ancora in sviluppo attivo. Alcune funzioni potrebbero cambiare o migliorare.
+<p>## ⚠️ Stato del Progetto</p>
+<p><strong>Versione attuale:</strong> `0.9.5 Beta`<br>
+👉 L’app è stabile ma ancora in sviluppo attivo. Alcune funzioni potrebbero cambiare o migliorare.</p>
 
-## 📅 Roadmap
+<p>## 📅 Roadmap</p>
 <ul class="roadmap">
-<li>Integrazione con **Open Library (Internet Archive) API's** per ricerca, lettura, download di Libri 📚</li>
-<li>Finalizzazione **versione iOS**</li>
-<li>Rilascio su **Android / IOS**</li>
+<li>Integrazione con <strong>Open Library (Internet Archive) API's</strong> per ricerca, lettura, download di Libri 📚</li>
+<li>Finalizzazione <strong>versione iOS</strong></li>
+<li>Rilascio su <strong>Android / IOS</strong></li>
 </ul>
 
 </div>

@@ -5,15 +5,15 @@ title: TravyPlay
 
 # TravyPlay
 
-<div class="functions-center">
+<div style="text-align:center; margin:0 auto; max-width:900px;">
 
 ## 📖 Descrizione
 
 **TravyPlay** è un media player open-source costruito in **Flutter**, progettato per unificare:  
 
-- Libreria **musicale locale** 🎵  
-- Collezione di **film e serie TV** 🎬  
-- Liste e canali **IPTV** 📺  
+- **Libreria musicale locale** 🎵  
+- **Collezione di film e serie TV** 🎬  
+- **Liste e canali IPTV** 📺  
 
 Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per sostituire più app con una sola soluzione.
 
@@ -73,19 +73,19 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
   </tr>
 </table>
 
+<div style="text-align:center; margin:20px auto; max-width:900px;">
 
-
-<h2>## 🌟 Highlights
+## 🌟 Highlights
 ✅ Unifica Musica + Video + IPTV in un’unica app<br>
 ✅ Interfaccia moderna e fluida (Flutter)<br>
 ✅ Gratuito & Open Source<br>
 ✅ Ottimizzato per mobile
 
-<h2>## ⚠️ Stato del Progetto
+## ⚠️ Stato del Progetto
 **Versione attuale:** `0.9.5 Beta`<br>
 👉 L’app è stabile ma ancora in sviluppo attivo. Alcune funzioni potrebbero cambiare o migliorare.
 
-<h2>## 📅 Roadmap
+## 📅 Roadmap
 <ul class="roadmap">
 <li>Integrazione con **Open Library (Internet Archive) API's** per ricerca, lettura, download di Libri 📚</li>
 <li>Finalizzazione **versione iOS**</li>
@@ -93,8 +93,6 @@ Il tutto in **un’unica interfaccia moderna e semplice da usare**, pensata per 
 </ul>
 
 </div>
-
-
 
 <p align="center" style="font-size:14px; color:#56ff8a;">
   <img src="icon_travyplay.png" alt="TravyPlay Logo Footer" width="40"/>  

@@ -1,22 +1,17 @@
-# Workflow per costruire e pubblicare un sito Jekyll su GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# .github/workflows/jekyll-gh-pages.yml
+name: Build and Deploy Jekyll Site with Ruby & Bundler
 
 on:
-  # Eseguito su push al branch principale
   push:
     branches:
       - "main"
-
-  # Possibilità di eseguire manualmente dal tab Actions
   workflow_dispatch:
 
-# Permessi necessari per GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Gestione delle esecuzioni concorrenti
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -29,14 +24,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
+      # Install Ruby & Bundler
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2   # Puoi cambiare versione se il tuo Jekyll richiede un'altra
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install jekyll
+          bundle install
 
       - name: Build Jekyll site
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        run: |
+          bundle exec jekyll build -d ./_site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
